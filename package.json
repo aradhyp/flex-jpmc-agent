@@ -1,0 +1,21 @@
+{
+  "name": "flex-jpmc-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FLEX — Financial Liberator and Enablement Xcaliber, a youth financial enablement agent prototype for JPMC/Chase digital product recommendations.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/recommendationEngine.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
